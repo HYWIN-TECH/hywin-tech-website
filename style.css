@@ -113,3 +113,24 @@ body {
     text-align: center;
     padding: 24px 20px;
 }
+
+.contact-outer {
+    text-align: center;
+}
+
+.contact-wrap {
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+}
+
+.contact-wrap h2 {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.contact-wrap p {
+    text-align: left;
+    margin: 0 0 12px;
+    max-width: none;
+}
