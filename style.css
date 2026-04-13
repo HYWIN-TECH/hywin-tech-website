@@ -28,12 +28,20 @@ body {
     background: linear-gradient(135deg, #0a397e, #1460ac);
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
 }
 
 .hero h1 {
     margin: 0;
     font-size: 48px;
+}
+
+.hero h2
+{
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
 }
 
 .subtitle {
