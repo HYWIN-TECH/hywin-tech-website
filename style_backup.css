@@ -28,7 +28,7 @@ body {
     background: linear-gradient(135deg, #0a397e, #1460ac);
     color: white;
     text-align: center;
-    padding: 20px 50px;
+    padding: 50px 20px;
 }
 
 .hero h1 {
@@ -100,8 +100,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
     text-align: center;
-
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card h3 {
@@ -135,9 +133,4 @@ body {
     text-align: left;
     margin: 0 0 12px;
     max-width: none;
-}
-
-.card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
