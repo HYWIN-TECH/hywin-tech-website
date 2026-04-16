@@ -45,19 +45,7 @@ a {
         linear-gradient(135deg, #082c63 0%, #0a397e 35%, #1460ac 100%);
     color: white;
     text-align: center;
-    padding: 20px 20px 120px;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image:
-        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-    background-size: 36px 36px;
-    opacity: 0.18;
-    pointer-events: none;
+    padding: 20px 20px 150px;
 }
 
 .hero::after {
@@ -65,10 +53,14 @@ a {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -1px;
-    height: 70px;
-    background: #ffffff;
-    border-radius: 100% 100% 0 0 / 100% 100% 0 0;
+    bottom: 0;
+    height: 120px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0) 0%,
+        #ffffff 70%
+    );
 }
 
 .hero .container {
