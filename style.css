@@ -45,7 +45,7 @@ a {
         linear-gradient(135deg, #082c63 0%, #0a397e 35%, #1460ac 100%);
     color: white;
     text-align: center;
-    padding: 20px 20px 100px;
+    padding: 20px 20px 50px;
 }
 
 .hero::before {
@@ -230,7 +230,7 @@ a {
 }
 
 .contact-wrap h2 {
-    text-align: left;
+    text-align: center;
     margin-bottom: 24px;
 }
 
